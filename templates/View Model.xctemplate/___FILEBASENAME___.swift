@@ -46,4 +46,8 @@ final class ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Type, 
     // MARK: Initializers
 
     // MARK: Input methods
+
+    // MARK: Output methods
+
+    // MARK: Internal logic
 }
