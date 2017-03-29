@@ -23,7 +23,7 @@ Currently, this repository contains templates for:
 ### Installation
 Templates are located in user's Library folder where Xcode keeps custom configuration.
 To install templates, just copy them to correct location.
-Best way to stay up-to date with latest repo version, it's better to create symbolic link.
+However, better way to stay up-to date with latest repo version is to create symbolic link for whole templates folder.
 
 First of all, clone this repository:
 ```bash
