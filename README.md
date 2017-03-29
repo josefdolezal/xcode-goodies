@@ -15,10 +15,10 @@ All templates are separated in to sections with `MARK: - ` comments.
 This creates fine document outline when you press <kbd>ctrl ^</kbd> + <kbd>6</kbd>.
 
 Currently, this repository contains templates for:
-* [View Controller](View%20Controller.xctemplate/__FILEBASENAME__.swift)
-* [View Model](View%20Model.xctemplate/__FILEBASENAME__.swift)
-* [Realm Object](Realm%20Object.xctemplate/__FILEBASENAME__.swift)
-* [Quick Spec](Quick%20Spec.xctemplate/__FILEBASENAME__.swift)
+* [View Controller](templates/View%20Controller.xctemplate/___FILEBASENAME___.swift)
+* [View Model](templates/View%20Model.xctemplate/___FILEBASENAME___.swift)
+* [Realm Object](templates/Realm%20Object.xctemplate/___FILEBASENAME___.swift)
+* [Quick Spec](templates/Quick%20Spec.xctemplate/___FILEBASENAME___.swift)
 
 ### Installation
 Templates are located in user's Library folder where Xcode keeps custom configuration.
