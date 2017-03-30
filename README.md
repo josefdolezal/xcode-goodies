@@ -19,6 +19,7 @@ Currently, this repository contains templates for:
 * [View Model](templates/View%20Model.xctemplate/___FILEBASENAME___.swift)
 * [Realm Object](templates/Realm%20Object.xctemplate/___FILEBASENAME___.swift)
 * [Quick Spec](templates/Quick%20Spec.xctemplate/___FILEBASENAME___.swift)
+* [Cell View](templates/Cell%20View.xctemplate/___FILEBASENAME___.swift)
 
 ### Installation
 Templates are located in user's Library folder where Xcode keeps custom configuration.
