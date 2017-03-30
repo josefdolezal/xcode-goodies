@@ -9,6 +9,7 @@
 import Foundation
 import RealmSwift
 
+/// <#Description#>
 final class ___FILEBASENAMEASIDENTIFIER___: Object {
 
     // MARK: - Stored properties
