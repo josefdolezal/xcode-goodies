@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import ReactiveSwift
+import ReactiveCocoa
 
 /// <#ViewController Docs#>
 class ___FILEBASENAMEASIDENTIFIER___: <#UIViewController#> {
