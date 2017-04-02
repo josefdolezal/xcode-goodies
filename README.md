@@ -3,6 +3,7 @@
 ## Content
 * [Templates](#templates)
 * [Snippets](#snippets)
+* [Keyboard shortcuts](#keyboard-shortcuts)
 
 ## Templates
 By default, Xcode supports only Apple MVC templates.
@@ -85,3 +86,59 @@ Note that if you have your own snippets already, there may be some name conflict
 In that case, rename the conflicted files (your or these in repository) and run the installation script again.
 
 To see the effect, **restart the Xcode**.
+
+## Keyboard shortcuts
+
+#### Scheme / Target / Product
+| Effect                                 | Shortcut                                                                                                       |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| Switch build scheme                    | <kbd>ctrl ^</kbd> + <kbd>cmd ⌘</kbd> + <kbd>[</kbd> **or** <kbd>ctrl ^</kbd> + <kbd>cmd ⌘</kbd> + <kbd>]</kbd> |
+| Switch product destination (simulator) | <kbd>ctrl ^</kbd> + <kbd>alt ⎇</kbd> + <kbd>cmd ⌘</kbd> + <kbd>[</kbd> **or** <kbd>ctrl ^</kbd> + <kbd>alt ⎇</kbd> + <kbd>cmd ⌘</kbd> + <kbd>]</kbd> |
+
+#### Editor focus
+| Effect                         | Shortcut                                                                                                         |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------|
+| Move focus to different editor | <kbd>cmd ⌘</kbd> + <kbd>j</kbd>                                                                                  |
+| Open assistant editor *        | <kbd>cmd ⌘</kbd> + <kbd>alt ⎇</kbd> + <kbd>enter ↩</kbd>                                                         |
+| Close assistant editor         | <kbd>cmd ⌘</kbd> + <kbd>enter ↩</kbd>                                                                             |
+| Switch tab                     | <kbd>cmd ⌘</kbd> + <kbd>shift ⬆</kbd> + <kbd>[</kbd> **or** <kbd>cmd ⌘</kbd> + <kbd>shift ⬆</kbd> + <kbd>]</kbd> |
+| Open new tab                   | <kbd>cmd ⌘</kbd> + <kbd>t</kbd>                                                                                   |
+
+\* Don't forget to check *Use Focused Editor* in Xcode *Navigation* preferences, or each new file will be opened in the standard editor every time.
+
+#### Source code editing
+| Effect              | Shortcut                                                     |
+|---------------------|--------------------------------------------------------------|
+| Open quickly        | <kbd>cmd ⌘</kbd> + <kbd>shift ⬆</kbd> + <kbd>o</kbd>        |
+| Show completions    | <kbd>ctrl ^</kbd> + <kbd>space</kbd> **or** <kbd>esc</kbd>\* |
+| Re-indent selection | <kbd>ctrl ^</kbd> + <kbd>i</kbd>                             |
+
+\* Must be turned on explicitly in *Text Editing* under *Code completions* options.
+
+#### Editor navigation
+| Effect                            | Shortcut                         |
+|-----------------------------------|----------------------------------|
+| Move to the beginning of the line | <kbd>cmd ⌘</kbd> + <kbd>←</kbd> |
+| Move to the end of the line       | <kbd>cmd ⌘</kbd> + <kbd>➡</kbd>  |
+| Move to the beginning of the word | <kbd>alt ⎇</kbd> + <kbd>←</kbd> |
+| Move to the end of the word       | <kbd>alt ⎇</kbd> + <kbd>➡</kbd> |
+| File outline                      | <kbd>ctrl ^</kbd> + <kbd>6</kbd> |
+
+Line navigation may be also combined with <kbd>backspace ⬅</kbd> to achieve ultimate deletion combos.
+
+#### Editor commands
+| Effect                | Shortcut                                                                 |
+|-----------------------|--------------------------------------------------------------------------|
+| Build target          | <kbd>cmd ⌘</kbd> + <kbd>b</kbd>                                          |
+| Run product           | <kbd>cmd ⌘</kbd> + <kbd>r</kbd>                                          |
+| Run all tests         | <kbd>cmd ⌘</kbd> + <kbd>r</kbd>                                          |
+| Run current test      | <kbd>cmd ⌘</kbd> + <kbd>ctrl ^</kbd> + <kbd>alt ⎇</kbd> + <kbd>u</kbd>   |
+| Clean project         | <kbd>cmd ⌘</kbd> + <kbd>shift ⬆</kbd> + <kbd>k</kbd>                     |
+| Clean build folder    | <kbd>cmd ⌘</kbd> + <kbd>alt ⎇</kbd> + <kbd>shift ⬆</kbd> + <kbd>k</kbd> |
+
+#### Editor layout
+| Effect                | Shortcut                                         |
+|-------------------|------------------------------------------------------|
+| Toggle console   | <kbd>cmd ⌘</kbd> + <kbd>shift ⬆</kbd> + <kbd>y</kbd> |
+| Toggle navigator | <kbd>cmd ⌘</kbd> + <kbd>0</kbd>                       |
+| Toggle utilities | <kbd>cmd ⌘</kbd> + <kbd>alt ⎇</kbd> + <kbd>0</kbd>   |
